@@ -1,0 +1,14 @@
+SETUP: my working directory is lab06-os-and-filesystem
+T1 prediction: I think ls / will show about 16 items
+T1: /bin holds cores
+T1: /dev holds sbin 
+T1: /bin holds bash 
+T1: /bin holds all the executival commands
+T1: /dev holds device files
+T1: / mean root directory , ~ mean home directory , . mean current directory 
+T1: the OS groups files by their purpose and organizes them into directories
+T2 prediction: ./deploy will not execute because it does not have execute permission
+T2: -rw-r--r--  written in numbers is 644
+T2: ./deploy failed at because execute permission is missing
+T2: the new policy needed chmod hmod +x to add execute permission
+-r-xr-xr-x  1 ayushikantmani  staff  37 21 Sep 12:49 deploy
